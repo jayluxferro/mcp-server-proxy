@@ -1,0 +1,11 @@
+[project]
+name = "mcp-server-proxy"
+version = "0.1.0"
+description = "Proxy remote HTTP/HTTPS MCP servers over stdio"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.2.0",
+]
+
+[project.scripts]
+mcp-server-proxy = "main:main"
